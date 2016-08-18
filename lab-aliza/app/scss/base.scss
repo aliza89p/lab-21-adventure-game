@@ -10,6 +10,9 @@ html, body {
 body {
   background-color: $app-dark;
   color: $app-primary;
+  h1{
+    text-align: center;
+  }
   form, h1, ol {
     border: 1px solid $app-accent;
     background-color: $app-light;

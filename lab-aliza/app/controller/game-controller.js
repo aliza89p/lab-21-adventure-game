@@ -1,9 +1,9 @@
 'use strict';
 
 const angular = require('angular');
-const demoApp = angular.module('demoApp');
+const gameApp = angular.module('gameApp');
 
-demoApp.controller('GameController', ['$log', GameController]);
+gameApp.controller('GameController', ['$log', GameController]);
 
 function GameController($log){
   this.history = [{id: 0, text: 'you are on an adventure'}];

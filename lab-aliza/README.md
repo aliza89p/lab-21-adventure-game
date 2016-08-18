@@ -9,3 +9,4 @@
 - in your browser, open `localhost:8080` to play the game  
 - run linter with: `npm run lint`  
 - run karmer with: `karma start`  
+- Bonus: Random candy interaction  

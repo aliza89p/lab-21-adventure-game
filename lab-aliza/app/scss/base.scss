@@ -1,0 +1,12 @@
+@import "vendor/normalize/_normalize.scss";
+@include normalize();
+@import "../lib/_theme.scss";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: $app-default;
+}

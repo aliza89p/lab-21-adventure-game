@@ -14,7 +14,7 @@ function GameController($log){
   this.directions = ['north', 'east', 'south', 'west'];
   this.candy = ['kit kat', 'twix', 'jolly rancher', 'snickers'];
   this.player = {
-    location: 'roomA',
+    location: 'bathroom',
     backpack: []
   };
 
@@ -38,7 +38,7 @@ function GameController($log){
       $log.log('nextRoom', nextRoom);
       if (nextRoom != 'wall'){
         this.player.location = nextRoom;
-        this.logHistory('You have entered ' + this.player.location + '. ' + this.addItemToBackpack(getRandomNumber(1, 10)));
+        this.logHistory('You have entered the ' + this.player.location + '. ' + this.addItemToBackpack(getRandomNumber(1, 10)));
         return;
       }
       this.logHistory('You hit a wall');

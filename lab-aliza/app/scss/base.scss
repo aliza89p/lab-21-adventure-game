@@ -8,5 +8,17 @@ html, body {
 }
 
 body {
-  background-color: $app-light;
+  background-color: $app-dark;
+  color: $app-primary;
+  form, h1, ol {
+    border: 1px solid $app-accent;
+    background-color: $app-light;
+    width: 75%;
+    padding: 20px;
+    margin: 15px auto;
+    li {
+      list-style-type: circle;
+      margin: 5px;
+    }
+  }
 }

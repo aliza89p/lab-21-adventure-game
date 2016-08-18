@@ -1,28 +1,28 @@
 'use strict';
 
 module.exports = {
-  roomA: {
+  bathroom: {
     north: 'wall',
-    east: 'roomB',
-    south: 'roomC',
+    east: 'bedroom',
+    south: 'kitchen',
     west: 'wall'
   },
-  roomB: {
+  bedroom: {
     north: 'wall',
     east: 'wall',
-    south: 'roomD',
-    west: 'roomA'
+    south: 'livingRoom',
+    west: 'bathroom'
   },
-  roomC: {
-    north: 'roomA',
-    east: 'roomD',
+  kitchen: {
+    north: 'bathroom',
+    east: 'livingRoom',
     south: 'wall',
     west: 'wall'
   },
-  roomD: {
-    north: 'roomB',
+  livingRoom: {
+    north: 'bedroom',
     east: 'wall',
     south: 'wall',
-    west: 'roomC'
+    west: 'kitchen'
   }
 };

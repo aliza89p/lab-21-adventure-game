@@ -4,11 +4,11 @@
   "description": "adventure game lab",
   "main": "app/entry.js",
   "directories": {
-    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "lint": "eslint ./app",
     "test": "test"
   },
   "scripts": {
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "lint": "eslint ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

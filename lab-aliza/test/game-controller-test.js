@@ -18,7 +18,7 @@ describe('testing GameController', function(){
   it('the player should change locations', () => {
     this.gameCtrl.moveDirection('east');
     expect(this.gameCtrl.player.location).toBe('livingRoom');
-    expect(this.gameCtrl.history[0].text).toContain('You have entered livingRoom');
+    expect(this.gameCtrl.history[0].text).toContain('You have entered the livingRoom');
     expect(this.gameCtrl.history[0].text).toContain('Candy?');
   });
 
